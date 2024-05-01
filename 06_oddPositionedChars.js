@@ -15,3 +15,11 @@ function oddPositionedChars(str) {
 oddPositionedChars("hello");
 
 oddPositionedChars("test");
+
+
+let Array1 = [10,20,30];
+let array2 = [40,50,60];
+let array3 = Array1 + `, `+ array2;
+console.log(array3);
+let array4= Array1.concat(array2);
+console.log(array4);
